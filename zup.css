@@ -1,0 +1,32 @@
+#conversation {
+	width: 		  	  500px;
+	overflow: 		  hidden;
+	background-color: #B7B87A;
+}
+
+
+
+.me {
+	text-align: right;
+	width: 100%;
+	overflow: hidden;
+}
+.me .message {
+	max-width: 400px;
+	float: right;
+	background-color: #82B875;
+}
+
+.other {
+	text-align: left;
+	width: 100%;
+	overflow: hidden;
+}
+.other .message {
+	max-width: 400px;
+	float: left;
+	background-color: #AFB0B8;
+}
+.message {
+	padding: 10 20 10 20;
+}
