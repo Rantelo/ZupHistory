@@ -1,32 +1,57 @@
 #conversation {
-	width: 		  	  500px;
+	width: 		  	  390px;
 	overflow: 		  hidden;
-	background-color: #B7B87A;
+	background-color: #DDD8C9;
+	padding: 5px 0;
 }
-
-
-
+p {
+	font-family: 'Helvetica Neue';
+}
+.message {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
+	border: 7px;
+}
 .me {
-	text-align: right;
-	width: 100%;
+	text-align: left;
 	overflow: hidden;
+	margin-bottom: 5px;
 }
 .me .message {
-	max-width: 400px;
+	max-width: 320px;
 	float: right;
-	background-color: #82B875;
+	background-color: #F1FFE3;
+	padding: 5px;
 }
 
 .other {
 	text-align: left;
-	width: 100%;
 	overflow: hidden;
+	margin-bottom: 5px;
 }
 .other .message {
-	max-width: 400px;
+	max-width: 320px;
 	float: left;
-	background-color: #AFB0B8;
+	background-color: #FCFBF4;
+	padding: 5px;
 }
-.message {
-	padding: 10 20 10 20;
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.time {
+	margin: 1em 0 0 5px;
+	float: right;
+	font-size: 0.6em;
+	display: inline;
+	color: #818979;
+}
+.say {
+	margin: 0;
+	font-size: 0.93em;
+	display: inline;
 }
