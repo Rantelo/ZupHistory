@@ -1,7 +1,6 @@
-#HtmlStringsUtilities.rb
-require_relative "Message.rb"
+require_relative "message.rb"
 
-class HtmlStringsUtilities
+class html_strings_utilities
 	attr_accessor :start, :end, :user
 
 	def initialize (user)
